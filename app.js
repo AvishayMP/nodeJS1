@@ -18,7 +18,7 @@ fs.readFile('./data.txt', 'utf-8', (err, data) => {
     // Task 5:
     write('res.txt', 'The amount of uniq words at the data is: \n' + uniqWords.length);
     // Task 7:
-    write('res.txt', 'The uniq words in the data are: \n' + toUpper(join(uniqWords)));
+    write('res.txt', 'The upper uniq words in the data are: \n' + toUpper(join(uniqWords)));
     // Task 8:
     write('res.txt', 'The uniq words long that 5 chars in the data are: \n' + join(filter(uniqWords, (d) => d.length > 5)));
     // Task 9:
